@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+/* font-family: 'Odibee Sans', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+/* font-family: 'Staatliches', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+/* font-family: 'Bangers', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+/* font-family: 'Playfair Display SC', serif; */
+
+body{
+    scroll-behavior: smooth;
+}
+    h1{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 60px;
+}
+img{
+    width: 20px;
+}
+
+nav{
+    background-color: #2E2E35;
+    border-bottom: solid 1px yellow;
+    font-size: 30px;
+    font-family: 'Playfair Display SC', serif;
+}
+.Nave{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navv{
+    height: 60px;
+    background-color: #343A40;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.navv:hover{
+    background-color: #000000;
+    transition:0.5s;
+}
+
+.imgg{
+    height: 60px;
+    background-color: #343A40;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.imgg:hover{
+    background-color: #BFB7A7;
+    transition:0.5s;
+}
+
+.moi img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+
+}
+
+

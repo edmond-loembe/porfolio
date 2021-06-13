@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+/* font-family: 'Noto Sans JP', sans-serif; */
+body{
+    scroll-behavior: smooth;
+}
+.competences{
+    background-color: #2E2E35;
+    padding-top: 100px;
+}
+p{
+    color: #BFB7A7;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.skills{
+    width: 70%;
+    text-align: center;
+    padding: 40px;
+    margin: 0 auto;
+    justify-content: center;
+    border-radius: 10px;
+    transition: transforme .2s;
+    transition: 0.5s;
+}
+.skills:hover{
+    transform: scale(1.2);
+}
+
+h3{
+    color: #BFB7A7;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 5px;
+}
+h2{
+    text-align: center;
+    padding: 5px;
+}
+
+.projet img{
+    width: 600px;
+    height: 350px;
+    
+}
+
+figure {
+        transform:
+        perspective(800px)
+        rotateY(25deg) scale(0.9)
+        rotateX(10deg);
+        filter: blur(2px);
+        opacity: 0.5;
+        transition: 0.6s ease all;
+        padding: 15px;
+}
+figure:hover {
+        transform:
+        perspective(800px)
+        rotateY(-15deg)
+        translateY(-50px)
+        rotateX(10deg)
+        scale(1);
+        filter: blur(0);
+        opacity: 1;
+}
+
+
+

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+/* font-family: 'Bangers', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+/* font-family: 'Noto Sans JP', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+/* font-family: 'Playfair Display SC', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+/* font-family: 'Poiret One', cursive; */
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+    scroll-behavior: auto;
+    }
+}
+
+.profil{
+    background-color: #2E2E35;
+    padding-top: 80px;
+}
+p{
+    color: white;
+}
+
+svg text{
+    font-family: 'Montserrat', sans-serif;
+    /* letter-spacing: 5px; */
+    stroke: #919191;
+    font-size: 150px;
+    font-weight: 700;
+    stroke-width: 5;
+    animation: textAnimate 7s infinite alternate;
+}
+
+@keyframes textAnimate{
+    0%{
+        stroke-dasharray: 0 50%;
+        stroke-dashoffset: 20%;
+    }
+    100%{
+        stroke-dasharray: 50% 0;
+        stroke-dashoffset: -20%;
+    }
+}
+.typewriter{
+    color: #BFB7A7;
+   text-align: center;
+   font-family: 'Poiret One', cursive;    font-size: 50px;
+    transition: 0.5s;
+    margin-bottom: 150px;
+    background-color: #343A40;
+    border-radius: 10px;
+    padding: 10px;
+    animation: 3s;
+}
+.typewriter:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+@media (max-width: 576px){
+    .typewriter {
+        font-size: 20px;
+        transition: 0.5s;
+    }
+}
+    
+   @media (min-width: 768px) {
+    .typing {
+    font-size: 28px;
+    transition: 0.5s;
+    }
+   }
+    
+   @media (min-width: 992px) {
+    .typing {
+    font-size: 38rem;
+    transition: 0.5s;
+    }
+   }

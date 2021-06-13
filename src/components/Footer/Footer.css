@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
+/* font-family: 'Playfair Display SC', serif; */
+body{
+    scroll-behavior: smooth;
+}
+.fouter{
+    border-top: solid 1px yellow;
+    background-color: #343A40;
+}
+
+.section img{
+    width: 30px;
+}
+
+.logo{
+    width: 70px;
+    height: 50px;
+    margin: 5px;
+    padding: 5px;
+    display: inline;
+}
+
+
+
+h2{
+    font-family: 'Playfair Display SC', serif;
+}
+
